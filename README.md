@@ -1,14 +1,26 @@
 # Lego Color Sorting Machine (LCSM)
 
-## About
-The **Lego Color Sorting Machine (LCSM)** is a device that sorts Legos based on the color selected by the user. The machine uses a gate mechanism to allow or reject pieces depending on whether their color matches the user's choice. This makes sorting Legos faster, more accurate, and less tedious.
+A physical prototype that sorts LEGO pieces by a color the user picks. A gate lets a piece through when its color matches and rejects it when it doesn't.
 
-## Why
-**Problem:** Sorting a large pile of Legos by color manually is time-consuming and tedious.  
-**Solution:** The LCSM detects the user's selected color and automatically sorts the pieces, saving time and effort.
+## Why I built it
+Sorting a big pile of LEGO by hand is slow and boring. I wanted a machine that does the filtering for me.
 
-## Prototype Images
-The prototype images are labeled according to directions to demonstrate the machine in action.
+## How it works
+1. The user selects a target color.
+2. Each piece passes the gate.
+3. The gate accepts or rejects the piece depending on whether its color matches the choice.
+
+## Photos
+Six angles of the prototype are in this repo: `front.jpg`, `front_angled.jpg`, `left.jpg`, `right.jpg`, `back.jpg`, `back_angled.jpg`, plus an overview shot, `Lego Color Sorting Machine.jpg`.
+
+## What I haven't written down yet
+- How the color is sensed and what code runs it
+- How accurate it was and where pieces jammed
+
+I'll fill these in; the repo currently documents the idea and the physical build only.
+
+## Status
+Working prototype, built 2025-11-26. A faster second version (a feeder that doesn't rely on a vibrating tray) is researched but not built.
 
 ## Author
-**Abhiraaj Rampal**
+Abhiraaj Rampal (`abhiraajr`)
